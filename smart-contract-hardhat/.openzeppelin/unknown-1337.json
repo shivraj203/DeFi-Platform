@@ -1,0 +1,154 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xA86135C4985E77995de5B4B3Db91b0a9dFFd0A3b",
+    "txHash": "0x7cf75a69d4d50f24d113fb5fa4d431aafed29c1744468145778535123eb4fecf"
+  },
+  "proxies": [
+    {
+      "address": "0x6737c834EBf6D05AA124606024F672087874F8ef",
+      "txHash": "0xba1c11555226060366aac8d284aefd90d3a6888a3de5eb2fb168fb91e73548c7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7e2D27ea2ff96882c12A01208B7F9a80AEa09Ba1",
+      "txHash": "0x1d822e28eaf3bb417c13cdd07dd89b87b0d42c4a71e036c31c7726f841ed8435",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe96E54f85139D935E683886f3E78Bf3C4B97272A",
+      "txHash": "0xdbbdbed2b3b192a60cc5a78422fd73876aa666f76de0977ea55fbcd510179b87",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a7a6de342c6ed4878c287dac054381ca0e3fd80478ec91cd0d2c53fead40fce3": {
+      "address": "0x924F890605c1D0CA2B3C55995660c179b956e449",
+      "txHash": "0x7b0aa978df5f2b613e1f5d5eaff65a3afb3aa191ead902207b23c12a29866604",
+      "layout": {
+        "solcVersion": "0.8.14",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "flaggingThreshold",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:15"
+          },
+          {
+            "label": "currentFlags",
+            "offset": 4,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:16"
+          },
+          {
+            "label": "isPlatformEnabled",
+            "offset": 6,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:17"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "7561e807e93b20c95b99a57d90ded6ac8bf080b29fe12ff763df71be17c8012b": {
+      "address": "0xa4a5Ec6ef9e611a39847fC8A1BD5Ee20Fb12E56E",
+      "txHash": "0x5eb4fc039b5ee11cae3ff5976abd8e75c821bab3047aac275b333d47727c2680",
+      "layout": {
+        "solcVersion": "0.8.14",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "flaggingThreshold",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:16"
+          },
+          {
+            "label": "currentFlags",
+            "offset": 4,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:17"
+          },
+          {
+            "label": "isPlatformEnabled",
+            "offset": 6,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Governance",
+            "src": "contracts\\2_GovernanceContract.sol:18"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

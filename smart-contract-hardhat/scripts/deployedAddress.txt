@@ -1,0 +1,14 @@
+// Local
+Upgrad Token Deployment Successful at:0x681Bed0775643b47707374c798B6d49D1E0eAD40
+Governence Deployment Successful at:0xe96E54f85139D935E683886f3E78Bf3C4B97272A
+DeFi Platform Deployment Successful at:0xE8C4909811d1d921aBa0324F3BE828b2cDC6ab97
+
+// Ganache
+Upgrad Token Deployment Successful at:0xe51E4f233B1D2be6AB34c238798AcE8CFA7D6e18
+Governence Deployment Successful at:0x6737c834EBf6D05AA124606024F672087874F8ef
+DeFi Platform Deployment Successful at:0xea4DdADfa1fD4255cc4FeA4cA0C3A033Bb03D537
+
+// Testnet Goerli
+Upgrad Token Deployment Successful at:0x3CC13C05482C3cF2D1D5001b43fCA295e3bCCFF9
+Governence Deployment Successful at:0xD272071DFDA3B4D75BB933ce17B2971a140d9DBD
+DeFi Platform Deployment Successful at:0xeEe198cFA894177e259c0CDf656f38Ef8762857f
